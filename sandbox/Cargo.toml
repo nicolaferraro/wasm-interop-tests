@@ -1,11 +1,8 @@
 [package]
-name = "connector"
+name = "sandbox"
 version = "0.1.0"
 edition = "2018"
 
-[lib]
-crate-type = [
-    "cdylib",
-]
-
 [dependencies]
+wasmer = "2.0.0"
+anyhow = "1.0.43"
